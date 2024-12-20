@@ -6,7 +6,7 @@ module.exports = {
   output: {
     path: path.resolve(__dirname, 'dist'),
     filename: 'bundle.js',
-    publicPath: '/'  // 添加这行
+    publicPath: '/mycv_page/'  // 添加这行
   },
   module: {
     rules: [
